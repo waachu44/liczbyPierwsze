@@ -26,7 +26,7 @@ namespace pierwszy_algorytm_bez_instrumentacji
             Stopwatch stopwatch = new Stopwatch();
             
 
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 9; i++)
             {
                 stopwatch.Start();
                 Console.Write(i+" "+IsPrime(arr[i])+" ");
